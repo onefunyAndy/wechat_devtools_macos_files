@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd "${0%/*}"
+
+'../Versions/60.0.3112.113/wechatwebdevtools Helper.app/Contents/MacOS/node' ./index.js $@

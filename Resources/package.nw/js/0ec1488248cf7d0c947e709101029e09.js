@@ -1,0 +1,1 @@
+"use strict";!function(require,directRequire){module.exports={private_openUrl:async function(a,b){const c=b.args.url;return c&&/^https?:\/\//i.test(c)?(nw.Shell.openExternal(c),{errMsg:`${b.api}:ok`}):{errMsg:`${b.api}:fail invalid protocol`}}}}(require("lazyload"),require);
